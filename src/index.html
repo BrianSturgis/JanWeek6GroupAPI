@@ -11,17 +11,17 @@
 <body id="aboutUsPages">
   <div class="container">
     <h1>SPACE STUFF!</h1>
-    <button class="btn-success" id="marsWeather">Get Current Pressure On Mars</button>
+    <button class="btn-success" id="marsWeather">Weather on Mars</button>
     <br>
-    <button class="btn-success" id="marsPic">Get Astronomy Pic of The Day</button>
+    <button class="btn-success" id="marsPic">Astronomy Pic of The Day</button>
     <br>
-    <label for="date">Enter a date(yyyy-mm-dd):</label>
-    <input id="date" type="datetime">
-    <br>
-    <button class="btn-success" id="marsRoverPic">Get A Pic from the Mars Rover's Perspective!</button>
-    <br>
+    <label for="date">Enter a date to see a pic from the Mars Rover's perspective: </label>
+    <input id="date" placeholder="yyyy-mm-dd" type="datetime">
+    <button class="btn-success" placeholder="yyyy-mm-dd" id="marsRoverPic">Submit</button>
     <div class="showErrors"></div>
-    <div class="showWeather"></div>
+    <div class="showMinTemp"></div>
+    <div class="showMaxTemp"></div>
+    <div class="showAtmos"></div>
     <div class="showPic"></div>
     <div class="showRoverPic"></div>
   </div>
